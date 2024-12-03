@@ -25,5 +25,5 @@
         $email = filter_input(INPUT_POST, "email",FILTER_SANITIZE_SPECIAL_CHARS);
     }
 
-    echo "You name is $name"
+    echo "You name is $name";
 ?>
