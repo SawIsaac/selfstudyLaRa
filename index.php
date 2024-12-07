@@ -19,11 +19,14 @@
 </html>
 
 <?php
+    // if(isset($_POST['login'])){
+    //     $name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_SPECIAL_CHARS);
+    //     $age = filter_input(INPUT_POST, "age", FILTER_SANITIZE_SPECIAL_CHARS);
+    //     $email = filter_input(INPUT_POST, "email",FILTER_SANITIZE_SPECIAL_CHARS);
+    // }
     if(isset($_POST['login'])){
-        $name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_SPECIAL_CHARS);
-        $age = filter_input(INPUT_POST, "age", FILTER_SANITIZE_SPECIAL_CHARS);
-        $email = filter_input(INPUT_POST, "email",FILTER_SANITIZE_SPECIAL_CHARS);
+        $age = filter_input(INPUT_POST,"age",FILTER_VALIDATE_INT);
     }
-
-    echo "You name is $name";
+    echo "You name is $name <br>";
+    echo "Your double name is $name";
 ?>
