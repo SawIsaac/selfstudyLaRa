@@ -1,4 +1,4 @@
-<?php 
+<!-- <?php 
 session_start();
 if(isset($_SESSION['username']) && isset($_SESSION['password'])){
     $username = $_SESSION['username'];
@@ -37,4 +37,4 @@ if(isset($_POST['click'])){
     </form>
     <a href="next1.php">Back to Signup Page</a>
 </body>
-</html>
+</html> -->

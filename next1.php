@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 session_start();
 if(isset($_POST['click'])){
     $_SESSION['username'] = $_POST['username'];
@@ -27,4 +27,4 @@ if(isset($_POST['click'])){
     </form>
     <a href="next.php"> GO to login page</a>
 </body>
-</html>
+</html> -->
